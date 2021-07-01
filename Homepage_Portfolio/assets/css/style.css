@@ -1,0 +1,140 @@
+/* .topNav{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+} */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: red; 
+    padding: 2vh 0;
+    height: 5vh;
+}
+.nav *{
+    margin: 2vh 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 1vh 2vw;
+    cursor: pointer;
+    color: red;
+}
+.nav li a:hover{
+    border: 1px red solid;
+    
+}
+.logo{
+    /* padding: 30px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    width: 45vw;
+}
+.logo img{ 
+max-width: 60%;
+}
+.titlesection {
+    display: flex;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+.about{
+    width: 45vw;
+}
+
+#fullname{
+    /* display: grid; */
+    justify-content: center;
+    color: red;
+
+}
+
+.subheader{
+    /* display: grid; */
+    justify-content: center;
+    color: red;
+    font-family: Helvetica, sans-serif;
+   
+}
+
+.socialmedia{
+    display: flex;
+    list-style-type: none; 
+     
+}
+.socialmedia li{
+    padding: 0;
+    margin: 0;
+}
+
+
+#animation1{
+    color: red;
+    display: none;
+}
+#animation2{
+    color: blue;
+    display: none;
+}
+#animation3{
+    color: red;
+    display: none;
+}
+#instagram i{
+    margin: 0 3vw 0 3vw;
+}
+/* .workGrid{
+    display: grid;
+} */
+.hellochef{
+position: absolute;
+width: 219px;
+height: 438px;
+left: 1065px;
+top: 1337px;
+
+}
+footer{
+    /* position: absolute; */
+    bottom: 0; 
+    width: 100vw;
+    grid-column: 1/13;
+    /* grid-row: 6/7; */
+    display: grid;
+    grid-template-rows: minmax(50px, 75px);
+    align-items: end;
+    
+}
+.footernavbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footersocialmedia{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+/* .item1{
+    grid-area: myArea;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+   
+
+} */
+
+
+/* @media only screen and (max-width: 600){
+    /* my css styles for my grid templet area here*/
+    /*flex-direction: ;
+} */
+
+
+
+
